@@ -1,0 +1,32 @@
+.info{
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    align-items: center;
+
+}
+.info h3{
+    font-weight: 500px;
+
+}
+.info ul{
+    display: flex;
+    list-style: none;
+    
+}
+.info li a{
+    display: grid;
+    gap: 10px;
+    margin: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 40%;
+    top: 50px;
+}
